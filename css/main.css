@@ -51,6 +51,7 @@ a:hover {
   width: 960;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 32px;
   background-color : #EBDEC9;
   padding: 10px;
 }
@@ -68,11 +69,11 @@ a:hover {
 .personal {
   display: inline-block;
   position: absolute;
-  width: 49%;
+  top: 15px;
+  right: 15px;
+  width: 48.75%;
   padding: 10px;
   text-align: left;
-  margin-left: 1%;
-  margin-right: 0;
   background-color: #473F33;
 }
 
@@ -115,6 +116,24 @@ a:hover {
 .family_img {
   width: 50%;
   margin: 1em;
+}
+
+.img_container {
+  margin: auto;
+  text-align: justify;
+  width: 80%;
+  padding-top: 1em;
+}
+
+.img_container img {
+  width: 200px;
+  display: inline-block;
+}
+
+.img_container:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
 }
 
 

@@ -1,0 +1,109 @@
+body {
+  background-color : #473F33;
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #EBDEC9;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+h2 {
+  margin-left: 10px;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 12pt;
+}
+
+li {
+  list-style-type: none; 
+}
+
+p {
+  margin: 0;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+a {
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.42857143;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  position: relative;
+  top: 32px;
+  width: 960;
+  margin-left: auto;
+  margin-right: auto;
+  background-color : #EBDEC9;
+  padding: 10px;
+}
+
+.header {
+  padding: 5px;
+}
+
+.profile_img {
+  display: inline-block;
+  width: 40%;
+  margin: 0;
+}
+
+.personal {
+  display: inline-block;
+  position: absolute;
+  width: 55%;
+  padding: 10px;
+  text-align: left;
+  margin-left: 1%;
+  margin-right: 0;
+  background-color: #473F33;
+}
+
+.info {
+  background-color: #473F33;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.round {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.bib-list li {
+  margin: 1em;
+}
+
+.bib-authors {
+  font-weight: bold;
+}
+
+.bib-date {
+}
+
+.bib-title {
+  font-style: italic;
+}
+
+.bib-journal {
+}
+
+

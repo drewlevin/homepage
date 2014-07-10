@@ -127,6 +127,7 @@ a:hover {
 
 .img_container img {
   width: 200px;
+  height: 160px;
   display: inline-block;
 }
 

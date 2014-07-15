@@ -45,6 +45,16 @@ a:hover {
   text-decoration: underline;
 }
 
+.download_icon {
+  background: url('../img/download_white.png') left bottom;
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+
 .content {
   position: relative;
   top: 32px;
